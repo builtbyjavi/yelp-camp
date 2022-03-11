@@ -22,7 +22,7 @@ const userRoutes = require('./routes/users');
 const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
 
-const MongoDBStore = require('connect-mongo');
+const MongoStore = require('connect-mongo');
 
 const dbUrl = process.env.MONGODB_URL || 'mongodb://localhost:27017/yelpCamp';
 
@@ -52,7 +52,7 @@ app.use(mongoSanitize({
 
 const secret = process.env.SECRET || 'devSecret';
 
-const store = MongoDBStore.create({
+const store = MongoStore.create({
     mongoUrl: dbUrl,
     touchAfter: 24 * 60 * 60,
     crypto: {
