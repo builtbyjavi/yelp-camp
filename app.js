@@ -58,7 +58,6 @@ const store = MongoStore.create({
     crypto: {
         secret
     }
-    
 });
 
 store.on('error', function(e) {
