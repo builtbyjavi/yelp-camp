@@ -5,5 +5,22 @@ Interactive Yelp-style website for campground locations across the United States
 ## How to Use
 Non-registered users have view-only privilege and are able to view previously created campgrounds with all relevant information: Name, Location, Description, Price per night, and images. If you would like to be able to create/edit campgrounds or write/edit reviews simply register (after which log in / log out when returning).
 
-### Credits
+### Tech
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Node.js
+- MongoDB
+- Express
+- Mongoose
+- EJS
+- MapBox
+- Passport
+- Helmet
+- Joi
+
+
+
+#### Credits
 https://www.udemy.com/course/the-web-developer-bootcamp/
